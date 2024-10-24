@@ -13,9 +13,9 @@ a {
     width: 100%;
     min-height: 100vh;
     background-image: url(image.png);
-    background-position: center; 
+    background-position: center center; 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto; /* Adjust this to control the zoom level */
     padding: 20px 10%;
     overflow: hidden;
     position: relative;
@@ -29,7 +29,7 @@ nav {
 }
 
 .logo {
-    width: 140px;
+    width: 150px;
 }
 
 nav ul {
@@ -49,24 +49,24 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: green; 
+    color: #577624; 
 }
 
 nav .login-btn {
-color: #333 !important;       
+color: #ffffff !important;       
     margin-right: 15px;     
     font-weight: 400;       
 }
 
 nav .login-btn:hover {
-    color: green !important; 
+    color: #577624 !important; 
 }
 
 nav .btn {
     display: inline-block;
     padding: 14px 40px;
     color: #fff !important; 
-    background-image: linear-gradient(45deg, #1d1f022d, #08263f);
+    background-image: linear-gradient(45deg, #577624, #577624);
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
@@ -95,7 +95,7 @@ nav .btn:hover {
     display: inline-block;
     padding: 14px 40px;
     color: #fff !important; 
-    background-image: linear-gradient(45deg, #1d1f022d, #08263f);
+    background-image: linear-gradient(45deg, #577624, #577624);
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
@@ -132,4 +132,8 @@ btn:hover{
 
     }
     
+}
+.join-now-btn {
+    background-color: #577624; /* Desired color */
+    color: white;
 }
